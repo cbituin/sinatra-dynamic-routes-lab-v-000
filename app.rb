@@ -20,6 +20,7 @@ class App < Sinatra::Base
       str+="#{@phrase}"
     end
     
+    str
     
   end
   
