@@ -24,11 +24,11 @@ class App < Sinatra::Base
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
     str = ""
-    str+=params[:word1]
-    str+=params[:word2]
-    str+=params[:word3]
-    str+=params[:word4]
-    str+=params[:word5]
+    str+=params[:word1]+" "
+    str+=params[:word2]+" "
+    str+=params[:word3]+" "
+    str+=params[:word4]+" "
+    str+=params[:word5]+" "
     str+="."
     
   end
