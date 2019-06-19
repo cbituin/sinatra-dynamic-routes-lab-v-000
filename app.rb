@@ -29,7 +29,8 @@ class App < Sinatra::Base
     str+=params[:word3]+" "
     str+=params[:word4]+" "
     str+=params[:word5]+"."
-    
   end
+  
+  get 
   
 end
