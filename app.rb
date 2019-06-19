@@ -17,7 +17,8 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     i = 0
     until i = @num
-      
+      @phrase
+      i++
     end
   end
 end
