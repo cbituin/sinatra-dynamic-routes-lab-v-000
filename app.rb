@@ -16,6 +16,6 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     @phrase = params[:phrase]
     i = 0
-    i < @num ? @phrase and i++ : @phrase
+    i < @num ? @phrase AND i++ : @phrase
   end
 end
