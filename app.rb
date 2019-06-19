@@ -26,9 +26,7 @@ class App < Sinatra::Base
     i = 1
     str = ""
     until i = 5
-    str+=params[:word#{i}]
-    i+=1
-    end
+    str+=params[:word#{]
   end
   
 end
