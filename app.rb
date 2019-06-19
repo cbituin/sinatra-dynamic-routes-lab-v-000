@@ -23,10 +23,13 @@ class App < Sinatra::Base
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
-    i = 1
     str = ""
-    until i = 5
-    str+=params[:word#{]
+    str+=params[:word1]
+    str+=params[:word2]
+    str+=params[:word3]
+    str+=params[:word4]
+    str+=params[:word5]
+    
   end
   
 end
