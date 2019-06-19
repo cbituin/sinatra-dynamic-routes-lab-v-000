@@ -31,6 +31,8 @@ class App < Sinatra::Base
     str+=params[:word5]+"."
   end
   
-  get 
+  get '/:operation/:number1/:number2' do
+    
+  end
   
 end
